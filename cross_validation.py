@@ -9,7 +9,8 @@ import matplotlib.pyplot as plt
 import shutil
 
 # Load Data
-CD_Loc = "path_to_GraceFall_folder"  # Update this with actual path
+# CD_Loc = "path_to_GraceFall_folder"  # Update this with actual path
+CD_Loc = r"C:\Users\medha\PycharmProjects\PythonProject\Raw_Data"
 
 # Load .mat files
 All34_table_loc = os.path.join(CD_Loc, 'Raw_Data', 'All34_table.mat')
